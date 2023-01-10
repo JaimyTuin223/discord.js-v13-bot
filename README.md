@@ -1,5 +1,5 @@
 # Discord.JS command handler
-Simple discord.js command handler example, free to use. (Note: This handler doesn't support slash commands.)
+Simple Discord.JS discord bot with command handler example, free to use. (Note: This handler doesn't support slash commands.)
 
 ### How to start the bot.
 **First time setup:**<br>1. Change the bot token to your token. (Change prefix if wanted.)<br>2. Run `npm i -y` in the command line.
