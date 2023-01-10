@@ -1,7 +1,6 @@
 const { Client, Intents, Collection, Interaction } = require("discord.js") 
 const botConfig = require("./botConfig.json")                             
 const fs = require("fs");
-const mongoose = require("mongoose");
 const discord = require("discord.js")
 require("dotenv").config();
 
@@ -67,5 +66,4 @@ client.on("messageCreate", async message => {
 
 });
 
-// client.login(process.env.token);
 client.login(botConfig.token)
