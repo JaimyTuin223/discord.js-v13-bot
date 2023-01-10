@@ -9,6 +9,7 @@ Simple Discord.JS discord bot with command handler example, free to use. (Note: 
 If an issue is found, report it on the issues page.<br>In the report state the following: The issue and how to reproduce.
 
 ### Planned features:
+- Comments explaining the code.<br>
 - Automatic help command.
 
 ### Credits:
