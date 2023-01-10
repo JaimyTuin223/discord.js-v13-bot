@@ -1,4 +1,4 @@
-# Discord.JS command handler
+# discord.js Discord bot
 Simple Discord.JS discord bot with command handler example, free to use. (Note: This handler doesn't support slash commands.)
 
 ### How to start the bot.
