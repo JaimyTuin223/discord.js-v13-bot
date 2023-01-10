@@ -9,6 +9,3 @@ An example of a simple Discord Bot command handler.
 
 # Credits:
 Feel free to use this code for your own projects! No credits required.
-
-My social links can be found here:
-• Coming soon
