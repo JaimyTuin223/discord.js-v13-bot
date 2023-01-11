@@ -31,7 +31,7 @@ for (const file of commandFiles) {
 
 client.once("ready", async () => {
     console.log(`${client.user.username} is online.`);
-    client.user.setActivity(`Getting new commands!`, { type: "PLAYING" }); /* ${client.guilds.cache.size} servers. - !help, { type: "WATCHING" } */
+    client.user.setActivity(`Discord.JS bot example!`, { type: "PLAYING" }); /* ${client.guilds.cache.size} servers. - !help, { type: "WATCHING" } */
 
 });
 
