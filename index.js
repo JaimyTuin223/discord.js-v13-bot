@@ -9,7 +9,6 @@ const prefix = botConfig.prefix
 const client = new Client({ intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES, Intents.FLAGS.GUILD_MESSAGE_REACTIONS] });
 
 client.commands = new Collection();
-client.slashCommands = new Collection(); //New
 client.aliases = new Collection();
 
 const commandFiles = fs.readdirSync('./commands').filter(file => file.endsWith(".js"));
@@ -31,16 +30,16 @@ for (const file of commandFiles) {
 
 client.once("ready", async () => {
     console.log(`${client.user.username} is online.`);
-    client.user.setActivity(`Discord.JS bot example!`, { type: "PLAYING" }); /* ${client.guilds.cache.size} servers. - !help, { type: "WATCHING" } */
+    client.user.setActivity(`Discord.JS bot example!`, { type: "PLAYING" }); //The Discord "status" of the bot.
 
 });
 
-client.on("messageCreate", async message => {
+client.on("messageCreate", async message => { //Runs the handler when a message is sent.
 
-    if (message.author.bot) return;
+    if (message.author.bot) return; //if the message is a bot, it stops the code.
 
     if(message.mentions.users.first()) {
-        if(message.mentions.users.first().id === '856570726932414484') return message.channel.send(`The server prefix is: ${prefix}`)
+        if(message.mentions.users.first().id === 'BOT_ID_HERE) return message.channel.send(`The server prefix is: ${prefix}`) // Sends a msg saying what the prefix is, when the bot is mentioned.
     }
 
     var messageArray = message.content.split(" ");
@@ -61,7 +60,7 @@ client.on("messageCreate", async message => {
 
     } catch (error) {
         console.log(error);
-        await message.reply("There was a problem handling the command.");
+        await message.reply("There was a problem handling the command."); //If an error occurs in the handler code, it catches the error and sends a msg.
     }
 
 });
