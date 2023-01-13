@@ -39,7 +39,7 @@ client.on("messageCreate", async message => { //Runs the handler when a message 
     if (message.author.bot) return; //if the message is a bot, it stops the code.
 
     if(message.mentions.users.first()) {
-        if(message.mentions.users.first().id === 'BOT_ID_HERE) return message.channel.send(`The server prefix is: ${prefix}`) // Sends a msg saying what the prefix is, when the bot is mentioned.
+        if(message.mentions.users.first().id === 'BOT_ID_HERE') return message.channel.send(`The server prefix is: ${prefix}`) // Sends a msg saying what the prefix is, when the bot is mentioned.
     }
 
     var messageArray = message.content.split(" ");
