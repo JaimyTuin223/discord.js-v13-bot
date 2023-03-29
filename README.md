@@ -1,16 +1,37 @@
-# discord.js v13 Discord bot
-Simple Discord.JS v13 discord bot with command handler example, free to use. (Note: This handler doesn't support slash commands.)
 
-### How to start the bot.
-**First time setup:**<br>1. Change the bot token to your token. (Change prefix if wanted.)<br>2. Run `npm i -y` in the command line.
-<br><br>**Starting the bot:**<br>Run `npm start` or `node index.js` in the command line.
+# Discord.JS v13 bot
 
-### Issues.
-If an issue is found, report it on the issues page.<br>In the report state the following: The issue and how to reproduce.
+This repository is an example of a Discord.JS v13 bot with a slash command handler. 
 
-### Planned features:
-- Comments explaining the code.<br>
-- Automatic help command.
+## Outdated version
+Discord.js v14 has come out, because of this a bot example for this version can be found [here](https://github.com/JaimyTuin223/discord.js-v14-bot).
 
-### Credits:
-You can use this code without giving any credit. 
+
+## Installation
+
+Installing the correct packages can be done with the following npm commands.
+
+```bash
+  npm i -y
+```
+Don't forget to add your bot token inside `botconfig.json`.
+    
+## Deployment
+
+To deploy this project run
+
+```bash
+  npm start
+```
+
+
+## Features
+
+- Discord.JS v13
+- Command handler
+
+
+## Support
+
+This version is no longer being updated, because of this I no longer offer support. A newer version can be found [here](https://github.com/JaimyTuin223/discord.js-v14-bot)
+
