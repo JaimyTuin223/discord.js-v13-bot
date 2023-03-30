@@ -12,7 +12,7 @@ Discord.js v14 has come out, because of this a bot example for this version can 
 Installing the correct packages can be done with the following npm commands.
 
 ```bash
-  npm i -y
+  npm i
 ```
 Don't forget to add your bot token inside `botconfig.json`.
     
