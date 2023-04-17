@@ -1,7 +1,7 @@
 
 # Discord.JS v13 bot
 
-This repository is an example of a Discord.JS v13 bot with a slash command handler. 
+This repository is an example of a Discord.JS v13 bot with a simple command handler. 
 
 ## Outdated version
 Discord.js v14 has come out, because of this a bot example for this version can be found [here](https://github.com/JaimyTuin223/discord.js-v14-bot).
